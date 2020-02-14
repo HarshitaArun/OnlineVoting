@@ -211,7 +211,7 @@ public class AddID extends javax.swing.JFrame {
          
      
      Class.forName("com.mysql.cj.jdbc.Driver");
-           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/onlinevoting","root","openheart@99");
+           Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/onlinevoting","root","********");
            System.out.println("connection done");
            String sql;
            sql = "insert into aadhar_register values(?)";
